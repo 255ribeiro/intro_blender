@@ -19,6 +19,8 @@
 
 [UHS Studio](https://www.youtube.com/c/UHStudio)
 
+[Architecture Topics](https://www.youtube.com/channel/UCAZmf-rSBpnyPufbKszJQcQ)
+
 [Blender para Arquitetura](https://www.youtube.com/c/BlenderparaArquitetura)
 
 [GL3D](https://www.youtube.com/channel/UCDMs6qQbvvKnXOLKW937Kaw)
