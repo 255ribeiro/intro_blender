@@ -28,27 +28,28 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
 
-site_url: "https://255ribeiro.github.io/algorithmic_modeling_special_training/"
-repo_url: "https://github.com/255ribeiro/algorithmic_modeling_special_training/"
-repo_name: "255ribeiro/algorithmic_modeling_special_training" 
+site_url: "https://255ribeiro.github.io/Intro_blender/"
+repo_url: "https://github.com/255ribeiro/Intro_blender/"
+repo_name: "255ribeiro/Intro_blender"
 
 nav:
   - Home: index.md
-  - Instalação: blender/blender_interface.md
+  - Apresetação: blender/Apresenta.md
+  - Instalação: blender/install.md
+  - Interface: blender/blender_interface.md
   - Modelagem Basica : blender/basic_modeling.md
+  - Addons: blender/addons.md
   - Importando DXF: blender/modelagem_Import_dxf.md
   - Blender GIS:
     - Instalação: blender/BlenderGisInstall.md
     - Modelagem de Terreno: blender/blenderGis_dxf.md
-  - Sverchok:
-    - Instalando depedências:
-      - Habilitar o pip: blender/habilitar_o_pip.md
-      - depedências: blender/dependencias.md
-  - Texturas:
-    - Mapas UVS: blender/uvs.md
-  - Scripts:
-    - basics: blender/scripts/index.md
-    - Archimesh script: blender/scripts/archimesh.md
+  - Materiais e Texturas:
+    - Mapas UV: blender/uvs.md
+  - Apêndice:
+    - Sverchok:
+      - Instalando depedências:
+        - Habilitar o pip: blender/habilitar_o_pip.md
+        - depedências: blender/dependencias.md
 
   
 extra:
