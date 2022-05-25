@@ -1,7 +1,28 @@
 # Blender
 
 
-Planejamento das Aulas:
+
+## Blender - instalação e interface:
+
+1. [Site Oficial](https://www.blender.org)
+
+1. [Página de download](https://www.blender.org/download/)
+
+1. [Documentação](https://docs.blender.org/)
+
+1. [Apresentação](./blender/Apresenta.md)
+
+1. [Guia de interface](./blender/blender_interface.md)
+   
+
+## Dicas de Blender
+
+[dicas de modelagem](https://www.youtube.com/watch?v=0Q7DUfxwcpM&t=169s)
+
+[Playlist introdução a modelagem](https://www.youtube.com/watch?v=kbHsXdrRIBY&list=PL-YgB1cUwWX3JWUeHtvQ2GPrm81XOYnox)
+
+
+## Planejamento das Aulas:
 
 - Apresetação do software e desmistificação da interface.
 - Interface (Cotinuação).Configurações básicas Inserção de obejtos. Tipos de Objetos. Sistemas de coordenadas,  menu N (side bar) e menu T.
@@ -17,23 +38,6 @@ Planejamento das Aulas:
 - baixando blocos e texturas. Ajustando a cena para o render. Iluminação
 - Render Image - configurações 
 - Basico de animação pela timeline.  Animação de movimento de câmera - Render
-
-
-### Blender - instalação e interface:
-
-1. [Site Oficial](https://www.blender.org)
-
-1. [Página de download](https://www.blender.org/download/)
-
-1. [Guia de interface](./blender/blender_interface.md)
-
-1. [Documentação](https://docs.blender.org/)
-
-### Dicas de Blender
-
-[dicas de modelagem](https://www.youtube.com/watch?v=0Q7DUfxwcpM&t=169s)
-
-[Playlist introdução a modelagem](https://www.youtube.com/watch?v=kbHsXdrRIBY&list=PL-YgB1cUwWX3JWUeHtvQ2GPrm81XOYnox)
 
 
 
