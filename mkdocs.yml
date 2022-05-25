@@ -1,0 +1,63 @@
+site_name: Curso de Blender
+use_directory_urls: false
+
+copyright: Copyright &copy; 2022 Fernando Ferraz Ribeiro
+
+theme:
+  features:
+    #- navigation.sections
+    - toc.integrate
+    #- navigation.tabs
+  name: material   
+  language: en-custom
+  custom_dir: docs\overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: orange
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: orange
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+site_url: "https://255ribeiro.github.io/algorithmic_modeling_special_training/"
+repo_url: "https://github.com/255ribeiro/algorithmic_modeling_special_training/"
+repo_name: "255ribeiro/algorithmic_modeling_special_training" 
+
+nav:
+  - Home: index.md
+  - Instalação: blender/blender_interface.md
+  - Modelagem Basica : blender/basic_modeling.md
+  - Importando DXF: blender/modelagem_Import_dxf.md
+  - Blender GIS:
+    - Instalação: blender/BlenderGisInstall.md
+    - Modelagem de Terreno: blender/blenderGis_dxf.md
+  - Sverchok:
+    - Instalando depedências:
+      - Habilitar o pip: blender/habilitar_o_pip.md
+      - depedências: blender/dependencias.md
+  - Texturas:
+    - Mapas UVS: blender/uvs.md
+  - Scripts:
+    - basics: blender/scripts/index.md
+    - Archimesh script: blender/scripts/archimesh.md
+
+  
+extra:
+  social:
+      - icon: fontawesome/brands/github
+        link: https://github.com/255ribeiro
+      - icon: fontawesome/brands/youtube
+        link: https://www.youtube.com/channel/UCCkMaRdD7PBWhs4JgH5s6_w
+      - icon: fontawesome/brands/linkedin
+        link: https://www.linkedin.com/in/fernando-ferraz-ribeiro-b49a7bb0/
+      - icon: fontawesome/solid/envelope-square
+        link: mailto:ffribeiro@gmail.com
