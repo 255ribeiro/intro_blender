@@ -79,30 +79,6 @@ Comandos de precisão do Blender.
 
 Pontos pivots de transformação do Blender.
 
-________________
-
-## Adições (add-ons)
-
-![preferences](../figs/imgBlender/preferences.jpg)
-
-Acima vemos uma das maneiras de se abrir o menu de preferências.
-
-![addons](../figs/imgBlender/addons.jpg)
-
-Na opção Add-ons podemos ver uma série de adições que já vem embarcadas no Blender e podemos instalar outras, baixadas da internet. Alguns são gratuitos e outros pagos.
-
-##### Add-ons sugeridos (gratuitos - disponíveis na internet):
-
-  1. [CAD transformations](https://github.com/s-leger/blender_cad_transforms)
-  1. [Mesh Align Plus](https://github.com/egtwobits/mesh_mesh_align_plus)
-  2. [Sverchok](https://github.com/nortikin/sverchok/)
-  3. [Sorcar](https://github.com/aachman98/Sorcar)
-  4. [Blender Gis](https://github.com/domlysz/BlenderGIS)
-  5. [Blender Bim](https://blenderbim.org/)
-  6. [Point Cloud vizualizer](https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280)
-  1. [QBlocker](https://blender-addons.org/qblocker-addon/)
-  2. [Jmesh](https://github.com/jayanam/jmesh-tools)
-
 
 
 _______________
