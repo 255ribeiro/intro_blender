@@ -6,7 +6,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/blender/Apresente.html</loc>
+         <lastmod>2022-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/blender/BlenderGisInstall.html</loc>
+         <lastmod>2022-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/blender/addons.html</loc>
          <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -32,6 +42,11 @@
     </url>
     <url>
          <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/blender/habilitar_o_pip.html</loc>
+         <lastmod>2022-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/algorithmic_modeling_special_training/blender/install.html</loc>
          <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
