@@ -656,9 +656,38 @@
  <img alt="gis_dxf_07" src="../figs/imgBlender/bgis_dxf_07.jpg" /></li>
 <li>Uma malha é gerada a partir das curvas
    <img alt="gis_dxf_08" src="../figs/imgBlender/bgis_dxf_08.jpg" /></li>
-<li>Mudando para o <strong>Edit Mode</strong> pode-se ver a malha triangular gerada pelo comando.
- <img alt="gis_dxf_08" src="../figs/imgBlender/bgis_dxf_09.jpg" /></li>
+<li>
+<p>Mudando para o <strong>Edit Mode</strong> pode-se ver a malha triangular gerada pelo comando.
+ <img alt="gis_dxf_08" src="../figs/imgBlender/bgis_dxf_09.jpg" /></p>
+</li>
+<li>
+<p>Para muitas operações é preciso transformar o terreno em um sólido.</p>
+</li>
+<li>
+<p>No modo de edição, utilize a seleção de arestas <code>2</code>.</p>
+</li>
 </ol>
+<p><img alt="img" src="Blender_gis_dxf/edit_lines.jpg" /></p>
+<ol>
+<li>Selecione todas as arestas <code>a</code>.</li>
+</ol>
+<p><img alt="img" src="Blender_gis_dxf/select_all.jpg" /></p>
+<ol>
+<li>Selecione as arestas que estão na borda da seleção.<code>Select</code> -&gt; <code>Select Loops</code> -&gt; <code>Select Boundary Loops</code></li>
+</ol>
+<p><img alt="img" src="Blender_gis_dxf/select_boundary.jpg" /></p>
+<ol>
+<li>Use o comando Extrude <code>e</code> com restrição para o eixo z <code>z</code> e arraste o mouse para baixo da superfície do terreno. A altura mínima do sólido deve ser suficiente para as operações booleanas de corte do terreno. Clique com o botão esquerdo do mouse para aceitar <code>LMB</code>.</li>
+</ol>
+<p><img alt="img" src="Blender_gis_dxf/extrude_terrain_surface.jpg" /></p>
+<ol>
+<li>Ao menos que seu terreno tenha as bordas niveladas no eixo z, é preciso alinhar os segmentos. Use o comando Scale <code>s</code>, restrinja para o eixo z <code>z</code>, utilize o valor <code>0</code>(zero) e clique com o botão esquerdo do mouse para aceitar <code>LMB</code>.</li>
+</ol>
+<p><img alt="img" src="Blender_gis_dxf/flat_lines.jpg" /></p>
+<ol>
+<li>Para fechar o sólido, com as arestas inferiores selecionadas, utilize o comando <code>Vertex</code>-&gt;<code>New Edge/Faces from Vertex</code> ou digitando o atalho <code>f</code> (as vezes esse comando é chamado de fuse).</li>
+</ol>
+<p><img alt="img" src="Blender_gis_dxf/new_face.jpg" /></p>
 <p><a href="terreno_malha_triangular.blend">arquivo terreno_malha_triangular.blend</a></p>
                 
               
