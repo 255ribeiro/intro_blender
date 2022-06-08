@@ -1,5 +1,11 @@
 # Sobre o Blender:
 
+1. [Site Oficial](https://www.blender.org)
+
+1. [Página de download](https://www.blender.org/download/)
+
+1. [Documentação](https://docs.blender.org/)
+
 ## Vídeos de apresentação
 
 ### Tour pelo Blender Studio
@@ -23,12 +29,19 @@
 
 [Blender para Arquitetura](https://www.youtube.com/c/BlenderparaArquitetura)
 
+[InsightZ](https://www.youtube.com/c/InsightZGameArt)
+
 [GL3D](https://www.youtube.com/channel/UCDMs6qQbvvKnXOLKW937Kaw)
 
 
 ### Um filme feito com o Blender:
 
-    [I Lost my Body](https://www.imdb.com/title/tt9806192/)
+[I Lost my Body](https://www.imdb.com/title/tt9806192/)
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IE_G_aJhMxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 

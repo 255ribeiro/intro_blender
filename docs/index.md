@@ -1,26 +1,12 @@
-# Blender
+# Curso de Blender
+
+![img](https://download.blender.org/branding/blender_logo.png)
 
 
 
-## Blender - instalação e interface:
+![img](https://www.blender.org/wp-content/uploads/2022/02/blender_31_orencloud_secret_deer_1680px.jpg)
 
-1. [Site Oficial](https://www.blender.org)
-
-1. [Página de download](https://www.blender.org/download/)
-
-1. [Documentação](https://docs.blender.org/)
-
-1. [Apresentação](./blender/Apresenta.md)
-
-1. [Guia de interface](./blender/blender_interface.md)
-   
-
-## Dicas de Blender
-
-[dicas de modelagem](https://www.youtube.com/watch?v=0Q7DUfxwcpM&t=169s)
-
-[Playlist introdução a modelagem](https://www.youtube.com/watch?v=kbHsXdrRIBY&list=PL-YgB1cUwWX3JWUeHtvQ2GPrm81XOYnox)
-
+![img](https://www.blender.org/wp-content/uploads/2020/07/blender_logo_no_socket_black.png?x63839)
 
 ## Planejamento das Aulas:
 
@@ -38,6 +24,10 @@
 - baixando blocos e texturas. Ajustando a cena para o render. Iluminação
 - Render Image - configurações 
 - Basico de animação pela timeline.  Animação de movimento de câmera - Render
+
+<hr>
+
+![img](https://www.blender.org/wp-content/uploads/2020/07/blender_logo_no_socket_white.png?x63839)
 
 
 

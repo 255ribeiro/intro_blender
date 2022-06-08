@@ -23,4 +23,30 @@
 2. Mudando para o **Edit Mode** pode-se ver a malha triangular gerada pelo comando.
  ![gis_dxf_08](../figs/imgBlender/bgis_dxf_09.jpg)
 
+1. Para muitas operações é preciso transformar o terreno em um sólido.
+
+2. No modo de edição, utilize a seleção de arestas ``2``.
+   
+![img](./Blender_gis_dxf/edit_lines.jpg)
+   
+3. Selecione todas as arestas ``a``.
+
+![img](./Blender_gis_dxf/select_all.jpg)
+
+4. Selecione as arestas que estão na borda da seleção.``Select`` -> ``Select Loops`` -> ``Select Boundary Loops``
+
+![img](./Blender_gis_dxf/select_boundary.jpg)
+
+5. Use o comando Extrude ``e`` com restrição para o eixo z ``z`` e arraste o mouse para baixo da superfície do terreno. A altura mínima do sólido deve ser suficiente para as operações booleanas de corte do terreno. Clique com o botão esquerdo do mouse para aceitar ``LMB``.
+
+![img](Blender_gis_dxf/extrude_terrain_surface.jpg)
+   
+6. Ao menos que seu terreno tenha as bordas niveladas no eixo z, é preciso alinhar os segmentos. Use o comando Scale ``s``, restrinja para o eixo z ``z``, utilize o valor ``0``(zero) e clique com o botão esquerdo do mouse para aceitar ``LMB``.
+
+![img](Blender_gis_dxf/flat_lines.jpg)
+
+7. Para fechar o sólido, com as arestas inferiores selecionadas, utilize o comando ``Vertex``->``New Edge/Faces from Vertex`` ou digitando o atalho ``f`` (as vezes esse comando é chamado de fuse).
+
+![img](./Blender_gis_dxf/new_face.jpg)
+
  [arquivo terreno_malha_triangular.blend](./terreno_malha_triangular.blend)
