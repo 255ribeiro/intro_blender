@@ -47,3 +47,4 @@ Na opção Add-ons podemos ver uma série de adições que já vem embarcadas no
    15. [shortcut_VUr](https://github.com/jayanam/shortcut_VUr)
    16. [Screencast Keys](https://github.com/nutti/Screencast-Keys)
    17. [Sketchup Importer](https://github.com/RedHaloStudio/Sketchup_Importer)
+   18. [Node Presets Extended](https://github.com/quellenform/blender-NodePresetsExtended)
