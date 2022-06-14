@@ -19,10 +19,6 @@ Apenas no edit mode podemos editar alguns aspectos das texturas
 
 ![img](./EDIT_MODE_SLOTS.jpg)
 
-
-
-## Mapas de UV
-
 ## Shading
 
 ### Node Wragler Addon
@@ -32,10 +28,7 @@ Apenas no edit mode podemos editar alguns aspectos das texturas
 2. ``SHIFT`` + ``P`` : Coloca um **frame** envolvendo os nós selecionados.
 3. ``Shift`` + ``CTRL`` + ``LMB`` : Visualizar nó selecionado
 
-
-
 ### Shader editor
-
 
 ![img](./shader_editor_imgs/shader_editor_01.png)
 
@@ -61,15 +54,20 @@ Apenas no edit mode podemos editar alguns aspectos das texturas
 
 #### Texturas procedurais do Blender
 
+##### Conceito
 
+#### Misturando cores, texturas e shaders
 
-### texturas
+### Imagens de texturas
 
 [exemplo de texturas - Tijolos](./textures_zip/brick_4_1k_jpg.zip)
-[exemplo de texturas - Telhado cerâmico](./textures_zip/RoofTilesTerracotta004.zip)
 
 ## World
 
 ### Sky texture
 
 ![sky textures](https://dev-files.blender.org/file/data/s644k3cpkcsm527hjtkf/PHID-FILE-ez5kek5o4autbyplydcd/02._1024.PNG.jpg)
+
+
+## Mapas de UV
+
