@@ -44,7 +44,9 @@ nav:
     - Instalação: blender/BlenderGisInstall.md
     - Modelagem de Terreno: blender/blenderGis_dxf.md
   - Materiais e Texturas:
-    - Mapas UV: blender/uvs.md
+    - Malhas,Materiais e Slots: blender/materials/malhas_mat_slots.md
+  - Recursos: blender/assets/assets.md
+  - Render: blender/render/render.md
   - Apêndice:
     - Sverchok:
       - Instalando depedências:
