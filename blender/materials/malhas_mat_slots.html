@@ -16,7 +16,7 @@
     
     
       
-        <title>Materiais, slots, Mapas UVs e Texturas - Curso de Blender</title>
+        <title>Malhas,Materiais e Slots - Curso de Blender</title>
       
     
     
@@ -99,7 +99,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Materiais, slots, Mapas UVs e Texturas
+              Malhas,Materiais e Slots
             
           </span>
         </div>
@@ -401,12 +401,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" checked>
       
       
       
@@ -427,11 +429,147 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="uvs.md" class="md-nav__link">
-        Mapas UV
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Malhas,Materiais e Slots
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="malhas_mat_slots.html" class="md-nav__link md-nav__link--active">
+        Malhas,Materiais e Slots
       </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#malhas-slots-e-materiais" class="md-nav__link">
+    Malhas, Slots e materiais
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shading" class="md-nav__link">
+    Shading
+  </a>
+  
+    <nav class="md-nav" aria-label="Shading">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#node-wragler-addon" class="md-nav__link">
+    Node Wragler Addon
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shader-editor" class="md-nav__link">
+    Shader editor
+  </a>
+  
+    <nav class="md-nav" aria-label="Shader editor">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#texturas-procedurais-do-blender" class="md-nav__link">
+    Texturas procedurais do Blender
+  </a>
+  
+    <nav class="md-nav" aria-label="Texturas procedurais do Blender">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#conceito" class="md-nav__link">
+    Conceito
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#misturando-cores-texturas-e-shaders" class="md-nav__link">
+    Misturando cores, texturas e shaders
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#imagens-de-texturas" class="md-nav__link">
+    Imagens de texturas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#world" class="md-nav__link">
+    World
+  </a>
+  
+    <nav class="md-nav" aria-label="World">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sky-texture" class="md-nav__link">
+    Sky texture
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mapas-de-uv" class="md-nav__link">
+    Mapas de UV
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -450,22 +588,52 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../assets/assets.html" class="md-nav__link">
+        Recursos
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../render/render.md" class="md-nav__link">
+        Render
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
     
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_12" type="checkbox" id="__nav_12" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_10">
+        <label class="md-nav__link" for="__nav_12">
           Apêndice
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Apêndice" data-md-level="1">
-        <label class="md-nav__title" for="__nav_10">
+        <label class="md-nav__title" for="__nav_12">
           <span class="md-nav__icon md-icon"></span>
           Apêndice
         </label>
@@ -480,18 +648,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10_1" type="checkbox" id="__nav_10_1" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_12_1" type="checkbox" id="__nav_12_1" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_10_1">
+        <label class="md-nav__link" for="__nav_12_1">
           Sverchok
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Sverchok" data-md-level="2">
-        <label class="md-nav__title" for="__nav_10_1">
+        <label class="md-nav__title" for="__nav_12_1">
           <span class="md-nav__icon md-icon"></span>
           Sverchok
         </label>
@@ -506,18 +674,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10_1_1" type="checkbox" id="__nav_10_1_1" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_12_1_1" type="checkbox" id="__nav_12_1_1" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_10_1_1">
+        <label class="md-nav__link" for="__nav_12_1_1">
           Instalando depedências
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Instalando depedências" data-md-level="3">
-        <label class="md-nav__title" for="__nav_10_1_1">
+        <label class="md-nav__title" for="__nav_12_1_1">
           <span class="md-nav__icon md-icon"></span>
           Instalando depedências
         </label>
@@ -601,24 +769,45 @@
 <p><img alt="img" src="Cretared_object_material.jpg" /></p>
 <p>Apenas no edit mode podemos editar alguns aspectos das texturas</p>
 <p><img alt="img" src="EDIT_MODE_SLOTS.jpg" /></p>
-<h2 id="mapas-de-uv">Mapas de UV</h2>
 <h2 id="shading">Shading</h2>
 <h3 id="node-wragler-addon">Node Wragler Addon</h3>
 <ol>
 <li><code>CTRL</code> + <code>T</code> : coloca <strong>Mapping</strong> e <strong>Texture Coordinates</strong> na textura selecionada.</li>
 <li><code>SHIFT</code> + <code>CTRL</code> + <code>T</code> : Ajusta <strong>Image Textures</strong> ao <strong>shader</strong> selecionado.</li>
 <li><code>SHIFT</code> + <code>P</code> : Coloca um <strong>frame</strong> envolvendo os nós selecionados.</li>
-<li><code>Shift</code> + <code>CTRL</code> + <code>LMB</code> : mkdocs Visualizar nó selecionado</li>
+<li><code>Shift</code> + <code>CTRL</code> + <code>LMB</code> : Visualizar nó selecionado</li>
 </ol>
-<h3 id="materiais-procedurais">materiais procedurais</h3>
-<h3 id="texturas">texturas</h3>
-<p><a href="brick_4_1k_jpg.zip">exemplos de texturas</a></p>
+<h3 id="shader-editor">Shader editor</h3>
+<p><img alt="img" src="shader_editor_imgs/shader_editor_01.png" /></p>
+<ol>
+<li>Output</li>
+</ol>
+<p><img alt="img" src="shader_editor_imgs/shader_editor_02.jpg" /></p>
+<ol>
+<li>Shaders</li>
+</ol>
+<p><img alt="img" src="shader_editor_imgs/shader_editor_03.jpg" /></p>
+<ol>
+<li>Textures</li>
+</ol>
+<p><img alt="img" src="shader_editor_imgs/shader_editor_04.jpg" /></p>
+<ol>
+<li>Textures transformations</li>
+</ol>
+<p><img alt="img" src="shader_editor_imgs/shader_editor_05.jpg" /></p>
+<ol>
+<li>Texture coordinates</li>
+</ol>
+<p><img alt="img" src="shader_editor_imgs/shader_editor_06.jpg" /></p>
+<h4 id="texturas-procedurais-do-blender">Texturas procedurais do Blender</h4>
+<h5 id="conceito">Conceito</h5>
+<h4 id="misturando-cores-texturas-e-shaders">Misturando cores, texturas e shaders</h4>
+<h3 id="imagens-de-texturas">Imagens de texturas</h3>
+<p><a href="textures_zip/brick_4_1k_jpg.zip">exemplo de texturas - Tijolos</a></p>
 <h2 id="world">World</h2>
 <h3 id="sky-texture">Sky texture</h3>
 <p><img alt="sky textures" src="https://dev-files.blender.org/file/data/s644k3cpkcsm527hjtkf/PHID-FILE-ez5kek5o4autbyplydcd/02._1024.PNG.jpg" /></p>
-<h2 id="configuracoes-de-camera">Configurações de câmera</h2>
-<h2 id="render">Render</h2>
-<p><a href="../blender/EXEMPLO_TEXTURAS.blend">ARQUIVO TEXTURAS</a></p>
+<h2 id="mapas-de-uv">Mapas de UV</h2>
                 
               
 
@@ -635,6 +824,41 @@
       
         
 <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../blenderGis_dxf.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Modelagem de Terreno" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Modelagem de Terreno
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../assets/assets.html" class="md-footer__link md-footer__link--next" aria-label="Next: Recursos" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Recursos
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
