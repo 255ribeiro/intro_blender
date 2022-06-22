@@ -25,6 +25,7 @@
 
 ![img](./glass/material_IOR.jpg)
 
+[Valores de referência de IOR](https://pixelandpoly.com/ior.html)
 
 #### Posibilidade de configuração de material de vidro no Evee
 
