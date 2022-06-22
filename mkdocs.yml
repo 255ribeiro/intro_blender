@@ -46,7 +46,10 @@ nav:
   - Materiais e Texturas:
     - Malhas,Materiais e Slots: blender/materials/malhas_mat_slots.md
   - Recursos: blender/assets/assets.md
-  - Render: blender/render/render.md
+  - Render: 
+      - Conceitos de render: blender/render/render.md
+      - Configuração do Evee: blender\render\evee\glass\render.md
+
   - Apêndice:
     - Sverchok:
       - Instalando depedências:
