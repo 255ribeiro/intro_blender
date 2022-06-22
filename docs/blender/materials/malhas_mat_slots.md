@@ -1,4 +1,4 @@
-# Materiais, slots, Mapas UVs e Texturas
+# Materiais, slots, Mapas e Texturas
 
 ## Malhas, Slots e materiais
 
@@ -58,9 +58,14 @@ Apenas no edit mode podemos editar alguns aspectos das texturas
 
 #### Misturando cores, texturas e shaders
 
-### Imagens de texturas
 
-[exemplo de texturas - Tijolos](./textures_zip/brick_4_1k_jpg.zip)
+[exemplo texturas de tijolos procedural](./tests/material_tijolo.blend)
+
+### Imagens como texturas texturas
+
+1. Texturas a partir de imagens
+
+[exemplo de texturas - Tijolos](./texture_bricks/Bricks077_2K-JPG.zip)
 
 ## World
 
@@ -69,5 +74,5 @@ Apenas no edit mode podemos editar alguns aspectos das texturas
 ![sky textures](https://dev-files.blender.org/file/data/s644k3cpkcsm527hjtkf/PHID-FILE-ez5kek5o4autbyplydcd/02._1024.PNG.jpg)
 
 
-## Mapas de UV
+
 
