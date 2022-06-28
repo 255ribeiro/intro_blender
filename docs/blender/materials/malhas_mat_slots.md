@@ -1,4 +1,4 @@
-# Materiais, slots, Mapas e Texturas
+# Materiais, slots e Texturas
 
 ## Malhas, Slots e materiais
 

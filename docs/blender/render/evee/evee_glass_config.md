@@ -1,13 +1,14 @@
-# Configurações do Evee
 
-## Configurando transparência no Evee
-
+# Configurando transparência (vidro) no Evee
 
 
-### Configurando o Evee
+
+## Configurando o Evee
+
+
 ![img](./glass/glass_evee_1.jpg)
 
-### Configurando o material
+## Configurando o material
 ![img](./glass/glass_evee_2.jpg)
 
 
@@ -27,7 +28,7 @@
 
 [Valores de referência de IOR](https://pixelandpoly.com/ior.html)
 
-#### Posibilidade de configuração de material de vidro no Evee
+### Forma alternativa de configurar um material de vidro no Evee
 
 ![img](./glass/glass_material_evee.png)
 
