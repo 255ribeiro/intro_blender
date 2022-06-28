@@ -9,21 +9,21 @@
       
       
       
-        <link rel="canonical" href="https://255ribeiro.github.io/Intro_blender/blender/BlenderGisInstall.html">
+        <link rel="canonical" href="https://255ribeiro.github.io/Intro_blender/blender/render/cycles/cycles_glass_config.html">
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.6">
     
     
       
-        <title>Instalação - Curso de Blender</title>
+        <title>Cycles - Curso de Blender</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.a57b2b03.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.a57b2b03.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.3f5d1f46.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.3f5d1f46.min.css">
         
       
     
@@ -57,7 +57,7 @@
     <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="deep-orange">
   
     
-    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    <script>function __prefix(e){return new URL("../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
       <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
@@ -67,7 +67,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#instalando-o-blendergis" class="md-skip">
+        <a href="#configurando-vidro-no-cycles" class="md-skip">
           Skip to content
         </a>
       
@@ -80,7 +80,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../index.html" title="Curso de Blender" class="md-header__button md-logo" aria-label="Curso de Blender" data-md-component="logo">
+    <a href="../../../index.html" title="Curso de Blender" class="md-header__button md-logo" aria-label="Curso de Blender" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -99,7 +99,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Instalação
+              Cycles
             
           </span>
         </div>
@@ -204,7 +204,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../index.html" title="Curso de Blender" class="md-nav__button md-logo" aria-label="Curso de Blender" data-md-component="logo">
+    <a href="../../../index.html" title="Curso de Blender" class="md-nav__button md-logo" aria-label="Curso de Blender" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -236,7 +236,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../index.html" class="md-nav__link">
+      <a href="../../../index.html" class="md-nav__link">
         Home
       </a>
     </li>
@@ -251,7 +251,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Apresenta.html" class="md-nav__link">
+      <a href="../../Apresenta.html" class="md-nav__link">
         Apresetação
       </a>
     </li>
@@ -266,7 +266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="install.html" class="md-nav__link">
+      <a href="../../install.html" class="md-nav__link">
         Instalação
       </a>
     </li>
@@ -281,7 +281,7 @@
   
   
     <li class="md-nav__item">
-      <a href="blender_interface.html" class="md-nav__link">
+      <a href="../../blender_interface.html" class="md-nav__link">
         Interface
       </a>
     </li>
@@ -296,7 +296,7 @@
   
   
     <li class="md-nav__item">
-      <a href="basic_modeling.html" class="md-nav__link">
+      <a href="../../basic_modeling.html" class="md-nav__link">
         Modelagem Basica
       </a>
     </li>
@@ -311,7 +311,7 @@
   
   
     <li class="md-nav__item">
-      <a href="addons.html" class="md-nav__link">
+      <a href="../../addons.html" class="md-nav__link">
         Addons
       </a>
     </li>
@@ -326,7 +326,7 @@
   
   
     <li class="md-nav__item">
-      <a href="modelagem_Import_dxf.html" class="md-nav__link">
+      <a href="../../modelagem_Import_dxf.html" class="md-nav__link">
         Importando DXF
       </a>
     </li>
@@ -339,14 +339,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
       
       
       
@@ -367,127 +365,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Instalação
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="BlenderGisInstall.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../BlenderGisInstall.html" class="md-nav__link">
         Instalação
       </a>
-      
-        
-
-
-<nav class="md-nav md-nav--secondary" aria-label="Índice">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Índice
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#baixando-o-add-on" class="md-nav__link">
-    Baixando o add-on
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#instalando" class="md-nav__link">
-    Instalando
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#configuracoes-adicionais-do-blendergis" class="md-nav__link">
-    Configurações Adicionais do BlenderGis
-  </a>
-  
-    <nav class="md-nav" aria-label="Configurações Adicionais do BlenderGis">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#cash-folder" class="md-nav__link">
-    Cash Folder
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sistema-de-projecao-sirgas-2000" class="md-nav__link">
-    Sistema de Projeção Sirgas 2000
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#video-com-instrucoes-de-instalacao-e-uso" class="md-nav__link">
-    Vídeo com instruções de instalação e uso:
-  </a>
-  
-    <nav class="md-nav" aria-label="Vídeo com instruções de instalação e uso:">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#canal-nicko16" class="md-nav__link">
-    Canal Nicko16
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mais-sobre-o-blendergis" class="md-nav__link">
-    Mais sobre o BlenderGis
-  </a>
-  
-    <nav class="md-nav" aria-label="Mais sobre o BlenderGis">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#modelagem-de-terrenos-a-partir-de-arquivos-dxf" class="md-nav__link">
-    Modelagem de terrenos a partir de arquivos dxf
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -499,7 +381,7 @@
   
   
     <li class="md-nav__item">
-      <a href="blenderGis_dxf.html" class="md-nav__link">
+      <a href="../../blenderGis_dxf.html" class="md-nav__link">
         Modelagem de Terreno
       </a>
     </li>
@@ -547,7 +429,7 @@
   
   
     <li class="md-nav__item">
-      <a href="materials/malhas_mat_slots.html" class="md-nav__link">
+      <a href="../../materials/malhas_mat_slots.html" class="md-nav__link">
         Malhas, Materiais e Slots
       </a>
     </li>
@@ -569,7 +451,7 @@
   
   
     <li class="md-nav__item">
-      <a href="assets/assets.html" class="md-nav__link">
+      <a href="../../assets/assets.html" class="md-nav__link">
         Recursos
       </a>
     </li>
@@ -582,12 +464,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11" type="checkbox" id="__nav_11" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11" type="checkbox" id="__nav_11" checked>
       
       
       
@@ -610,7 +494,7 @@
   
   
     <li class="md-nav__item">
-      <a href="render/render.html" class="md-nav__link">
+      <a href="../render.html" class="md-nav__link">
         Conceitos de render
       </a>
     </li>
@@ -622,12 +506,14 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11_2" type="checkbox" id="__nav_11_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11_2" type="checkbox" id="__nav_11_2" checked>
       
       
       
@@ -650,7 +536,7 @@
   
   
     <li class="md-nav__item">
-      <a href="render/evee/evee_glass_config.html" class="md-nav__link">
+      <a href="../evee/evee_glass_config.html" class="md-nav__link">
         Evee
       </a>
     </li>
@@ -662,11 +548,60 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="render/cycles/cycles_glass_config.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Cycles
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="cycles_glass_config.html" class="md-nav__link md-nav__link--active">
         Cycles
       </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#com-o-principled-bsdf" class="md-nav__link">
+    Com o Principled BSDF
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#com-o-glass-bsdf" class="md-nav__link">
+    Com o Glass BSDF
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -771,7 +706,7 @@
   
   
     <li class="md-nav__item">
-      <a href="habilitar_o_pip.html" class="md-nav__link">
+      <a href="../../habilitar_o_pip.html" class="md-nav__link">
         Habilitar o pip
       </a>
     </li>
@@ -785,7 +720,7 @@
   
   
     <li class="md-nav__item">
-      <a href="dependencias.html" class="md-nav__link">
+      <a href="../../dependencias.html" class="md-nav__link">
         depedências
       </a>
     </li>
@@ -828,55 +763,16 @@
 
 
                 
-                  <a href="https://github.com/255ribeiro/Intro_blender/edit/master/docs/blender/BlenderGisInstall.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/255ribeiro/Intro_blender/edit/master/docs/blender/render/cycles/cycles_glass_config.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="instalando-o-blendergis">Instalando o BlenderGis</h1>
-<h2 id="baixando-o-add-on">Baixando o add-on</h2>
-<p>Acesse o repositório do Github do <a href="https://github.com/domlysz/BlenderGIS">BlenderGis</a></p>
-<p><img alt="github_BenderGis" src="../figs/imgBlender/BlenderGisGitHub.jpg" /></p>
-<h2 id="instalando">Instalando</h2>
-<p>Baixe o arquivo .zip e, pela tela de Edit-&gt;Preferences-&gt;Add-ons, clique na opção <strong>Install</strong></p>
-<p><img alt="bgis_install" src="../figs/imgBlender/INSTALL_ADDONS.JPG" /></p>
-<p>navegue até o local onde baixou o arquivo .zip, selecione o arquivo e aperte o botão <strong>install add-on</strong></p>
-<p><img alt="bgis_install_2" src="../figs/imgBlender/INSTALL_ADDONS_2.JPG" /></p>
-<p>De volta à tela de Add-ons, clique na seta para visualizar as propriedades do Add-on instalado. Em todos os plug-ins vamos encontrar ao menos um botão que leva para o site da documentação (Help e informações de funcionamento do Plug-in) e um botão para remover o Add-on instalado. Em alguns casos, mais configurações vão aparecer.</p>
-<p>Ative a <strong>checkbox</strong> ao lado da seta para instalar o Add-on. </p>
-<p><img alt="bgis_install_2" src="../figs/imgBlender/INSTALL_ADDONS_3.JPG" /></p>
-<p>Dependendo da complexidade do Add-on a instalação pode ser muita rápida ou demorar um pouco. Aguarde. O Blender esta descompactando o arquivo .zip e copiando o conteúdo para a pasta de Add-ons da sua instalação. No caso do Windows 10, esta pasta fica no caminho:</p>
-<pre><code>C:\Users\&lt;seu nome de usuário do windows&gt;\AppData\Roaming\Blender Foundation\Blender\&lt;número da versão do Blender instalada e.g. \2.90\&gt;\scripts\addons
-</code></pre>
-<p>Que também pode ser acessado digitando a lina abaixo na barra de endereço do <strong>Explorador de Arquivos</strong> do Windows (apenas mudando o número da versão do Blender):</p>
-<pre><code>%AppData%\Blender Foundation\Blender\2.90\scripts\addons
-</code></pre>
-<p>No fim desta execução, a <strong>checkbox</strong> aparecerá marcada e a instalação concluída. Alguns Add-ons, contudo, exigem configurações adicionais que aparecerão nesta mesma tela, assim que a <strong>checkbox</strong> aparecer como marcada.</p>
-<h2 id="configuracoes-adicionais-do-blendergis">Configurações Adicionais do BlenderGis</h2>
-<p>No BlenderGis é necessário configurar uma pasta de cash e é recomendável adicionar o sistema de coordenadas geoespaciais mais utilizado na sua região.</p>
-<h3 id="cash-folder">Cash Folder</h3>
-<p>Crie uma pasta para o cash do BlenderGis em algum lugar do seu drive e clique no ícone para definir o caminho, conforme figura abaixo:</p>
-<p><img alt="cash" src="../figs/imgBlender/BlenderGisCashFolder.jpg" /></p>
-<p>Navegue até a pasta criada e clique no botã para aceitar.</p>
-<p><img alt="cash_2" src="../figs/imgBlender/BlenderGisCashFolder_2.jpg" /></p>
-<h3 id="sistema-de-projecao-sirgas-2000">Sistema de Projeção Sirgas 2000</h3>
-<p>O sistema de corrdenadas de referência Sirgas 2000 é o mais utilizado no Brasil. Informações sobre este sistema e seu código EPSG podem ser conferidas no <a href="https://epsg.io/4674">link</a>.</p>
-<p>Na seção <strong>spatial reference systems</strong> das configurações do BlenderGis, clique no botão <strong>Add</strong></p>
-<p><img alt="cash_2" src="../figs/imgBlender/BlenderGisCRS.jpg" /></p>
-<p>Em seguida preencha a caixa de diálogo conforme indicado. </p>
-<p><img alt="cash_2" src="../figs/imgBlender/BlenderGisCRS_2.jpg" /></p>
-<pre><code>EPSG:4674
-SIRGAS 2000
-</code></pre>
-<p>Para configurar qualquer outro sistema de coordenadas, pasta pesquisar o nome e o EPSG na internet e repetir as operações descritas acima.</p>
-<h2 id="video-com-instrucoes-de-instalacao-e-uso">Vídeo com instruções de instalação e uso:</h2>
-<hr />
-<h3 id="canal-nicko16">Canal <a href="https://www.youtube.com/channel/UCIldsycnma5sHR1VRP38vhg">Nicko16</a></h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YNtKnmRXVlo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<hr />
-<h2 id="mais-sobre-o-blendergis">Mais sobre o BlenderGis</h2>
-<h3 id="modelagem-de-terrenos-a-partir-de-arquivos-dxf"><a href="blenderGis_dxf.html">Modelagem de terrenos a partir de arquivos dxf</a></h3>
+                <h1 id="configurando-vidro-no-cycles">Configurando Vidro no Cycles</h1>
+<h2 id="com-o-principled-bsdf">Com o Principled BSDF</h2>
+<p><img alt="img" src="cycles_glass/cycles_glass_Principled_BSDF.png" /></p>
+<h2 id="com-o-glass-bsdf">Com o Glass BSDF</h2>
+<p><img alt="img" src="cycles_glass/cycles_glass_Glass_BSDF.png" /></p>
                 
               
 
@@ -897,7 +793,7 @@ SIRGAS 2000
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="modelagem_Import_dxf.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Importando DXF" rel="prev">
+        <a href="../evee/evee_glass_config.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Evee" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -906,20 +802,20 @@ SIRGAS 2000
               <span class="md-footer__direction">
                 Previous
               </span>
-              Importando DXF
+              Evee
             </div>
           </div>
         </a>
       
       
         
-        <a href="blenderGis_dxf.html" class="md-footer__link md-footer__link--next" aria-label="Next: Modelagem de Terreno" rel="next">
+        <a href="../../habilitar_o_pip.html" class="md-footer__link md-footer__link--next" aria-label="Next: Habilitar o pip" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Modelagem de Terreno
+              Habilitar o pip
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -991,10 +887,10 @@ SIRGAS 2000
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": ["toc.integrate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.fcfe8b6d.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["toc.integrate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.fcfe8b6d.min.js", "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.b1047164.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.b1047164.min.js"></script>
       
     
   </body>
