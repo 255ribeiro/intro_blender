@@ -1,0 +1,44 @@
+import turtle
+
+n= 10 # number of iteractions
+s = 1 # scaling the drawing
+
+# constant 
+ang = 90 # degrees
+
+# turtle setup
+window = turtle.Screen()
+window.setup(1000,800)
+# turtle object instance
+t = turtle.Turtle()
+
+# drawing funtion
+def spiral_squares(dist, ang, t):
+    t.left(ang)
+    t.pensize(1)
+    for i in range(4):  
+        t.pencolor('lightgray')
+        t.forward(dist)
+        t.right(ang)
+        
+    t.right(ang)
+    t.pencolor("black")
+    t.pensize(2)
+    t.circle(dist, ang)
+
+# sequence loop  
+for i in range(n):
+
+    if  i == 0: # starting the sequence 
+        a = 0 
+        b = 1
+        print(a)
+        print(b)
+    else: # updating the sequence
+        a, b = b, a+b
+        print('{}\t\t\t r = {}/{} = {}'.format(b, b,a, b/a))
+    
+    # drawing the spiral
+    spiral_squares(b * s ,ang,t)
+
+window.exitonclick()
