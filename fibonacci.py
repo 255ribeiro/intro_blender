@@ -16,14 +16,13 @@ t = turtle.Turtle()
 def spiral_squares(dist, ang, t):
     t.left(ang)
     t.pensize(1)
+    t.pencolor('lightgray')
     for i in range(4):  
-        t.pencolor('lightgray')
         t.forward(dist)
         t.right(ang)
-        
     t.right(ang)
-    t.pencolor("black")
     t.pensize(2)
+    t.pencolor("black")
     t.circle(dist, ang)
 
 # sequence loop  
@@ -39,6 +38,6 @@ for i in range(n):
         print('{}\t\t\t r = {}/{} = {}'.format(b, b,a, b/a))
     
     # drawing the spiral
-    spiral_squares(b * s ,ang,t)
+    spiral_squares(b * s, ang, t)
 
 window.exitonclick()
