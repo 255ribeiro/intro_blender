@@ -1,7 +1,7 @@
 import turtle
 
 n= 20 # number of iteractions
-s = 1 # scaling the drawing
+s = 10 # scaling the drawing
 
 # constant 
 ang = 90 # degrees
@@ -29,16 +29,12 @@ def spiral_squares(dist, ang, t):
 
 # sequence loop  
 for i in range(n):
-
     if  i == 0: # starting the sequence 
-        a = 0 
-        b = 1
-        print(a)
-        print(b)
+        a, b = 0, 1
+        print('{}\n{}'.format(a,b))
     else: # updating the sequence
         a, b = b, a+b
         print('{}\t\t\t r = {}/{} = {}'.format(b, b,a, b/a))
-    
     # drawing the spiral
     spiral_squares(b * s, ang, t)
 
