@@ -1,6 +1,6 @@
 import turtle
 
-n= 10 # number of iteractions
+n= 20 # number of iteractions
 s = 1 # scaling the drawing
 
 # constant 
@@ -14,12 +14,14 @@ t = turtle.Turtle()
 
 # drawing funtion
 def spiral_squares(dist, ang, t):
+    # squares
     t.left(ang)
     t.pensize(1)
     t.pencolor('lightgray')
     for i in range(4):  
         t.forward(dist)
         t.right(ang)
+    # spiral arcs
     t.right(ang)
     t.pensize(2)
     t.pencolor("black")
