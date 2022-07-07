@@ -1,6 +1,6 @@
 import turtle
 
-n= 20 # number of iteractions
+n = 10 # number of iteractions
 s = 10 # scaling the drawing
 
 # constant 
@@ -34,7 +34,7 @@ for i in range(n):
         print('{}\n{}'.format(a,b))
     else: # updating the sequence
         a, b = b, a+b
-        print('{}\t\t\t r = {}/{} = {}'.format(b, b,a, b/a))
+        print('{}:\t{}\t\t\t r = {}/{} = {}'.format(i, b, b,a, b/a))
     # drawing the spiral
     spiral_squares(b * s, ang, t)
 
