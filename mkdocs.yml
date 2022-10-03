@@ -52,7 +52,7 @@ nav:
         - Evee: blender/render/evee/evee_glass_config.md
         - Cycles: blender/render/cycles/cycles_glass_config.md
 
-  - Apêndice:
+  - Extra:
     - Sverchok:
       - Instalando depedências:
         - Habilitar o pip: blender/habilitar_o_pip.md
