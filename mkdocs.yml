@@ -34,10 +34,10 @@ repo_name: "255ribeiro/Intro_blender"
 
 nav:
   - Home: index.md
-  - Apresetação: blender/Apresenta.md
+  - Apresentação: blender/Apresenta.md
   - Instalação: blender/install.md
   - Interface: blender/blender_interface.md
-  - Modelagem Basica : blender/basic_modeling.md
+  - Modelagem Básica : blender/basic_modeling.md
   - Addons: blender/addons.md
   - Importando DXF: blender/modelagem_Import_dxf.md
   - Blender GIS:
@@ -67,5 +67,5 @@ extra:
         link: https://www.youtube.com/channel/UCCkMaRdD7PBWhs4JgH5s6_w
       - icon: fontawesome/brands/linkedin
         link: https://www.linkedin.com/in/fernando-ferraz-ribeiro-b49a7bb0/
-      - icon: fontawesome/solid/envelope-square
+      - icon: fontawesome/solid/envelope
         link: mailto:ffribeiro@gmail.com
