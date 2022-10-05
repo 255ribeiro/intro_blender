@@ -5,35 +5,62 @@
 ![interface](../figs/imgBlender/blenderInterface.jpg)
 
 1. Menu do programa (application menu)
-2. Workspaces
+2. Workspaces (interface com formato de abas)
 3. Controles de cena e camadas de visibilidade (Scene and View Layer selection)
-4. Editores
+4. Áreas / Editores
 
-Abas servem para trocar entre diferentes configurações de editores.
+Os Workspaces servem para trocar entre diferentes configurações de Áreas e Editores.
 
-________________
-## Navegação
+_______________
+# Áreas
 
-### Configuração modo de Zoom
+Redimensionando Áreas:
 
-![img](../figs/imgBlender/CONFIG_NAV.jpg)
+![img](../figs/imgBlender/interface/areas_redim.gif)
+
+
+![img](../figs/imgBlender/interface/areas.png)
 
 ________________
 ## Editores
 
 [Documentação](https://docs.blender.org/manual/en/2.90/editors/index.html#editors)
 
+Toda Áreas é ocupada por um editor, que pode ser trocado na caixa de seleção na posição superior esquerda (por padrão) da respectiva área. 
+
 ![Editores](../figs/imgBlender/blendeditors.jpg)
 
-
-  1. 3d viewport
+  1. 3D Viewport
+   
   2. Outliner
+   
      a. View Layer
+
   3. Properties
+
   4. Timeline
 
 
-O atalho ``ctrl + space`` maximiza o editor atual ou retorna para a vista padrão da aba.
+O atalho ``ctrl`` + ``space`` maximiza o editor atual ou retorna para a vista padrão da aba.
+
+________________
+## Navegação
+
+### Atalhos
+
+Zoom: `MMB` (Rolar)
+PAN : `SHIFT` + `MMB` (Arrastar)
+ORBIT: `MMB` (Arrastar)
+
+### Navigation Gizmo
+
+![img](../figs/imgBlender/interface/NAVIG_GIZMO.jpg)
+
+
+### Configuração modo de Zoom
+
+Para o Zoom centralizar na posição do mouse
+![img](../figs/imgBlender/CONFIG_NAV.jpg)
 
 ________________
 
@@ -91,7 +118,7 @@ _______________
 
 ## Sistemas de coordenadas
 
-![coordenadas_Blender](../figs/imgBlender/coordenadas_blender.jpg)
+![Coordenadas_Blender](../figs/imgBlender/coordenadas_blender.jpg)
 
 1. Global
 2. Local

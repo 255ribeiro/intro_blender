@@ -8,6 +8,7 @@
 
 ## Planejamento das Aulas:
 
+<!--
 - Apresentação do software e desmistificação da interface.
 - Interface (Continuação).Configurações básicas Inserção de objetos. Tipos de Objetos. Sistemas de coordenadas,  menu N (side bar) e menu T.
 
@@ -17,12 +18,15 @@
 - Modelagem Paramétrica e Geometry nodes. 
 - BelnderGis e Modelagem de Terrenos.
 
-<!-- - Materiais, Slots, UVmap. Exercícios de UVunrap
+ - Materiais, Slots, UVmap. Exercícios de UVunrap
 - Texturas no properties, texturas no shader
 - Materiais e texturas Exercício
 - baixando blocos e texturas. Ajustando a cena para o render. Iluminação
 - Render Image - configurações 
 - Basico de animação pela timeline.  Animação de movimento de câmera - Render -->
+
+
+
 
 <hr>
 
