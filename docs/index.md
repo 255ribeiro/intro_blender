@@ -25,7 +25,23 @@
 - Render Image - configurações 
 - Basico de animação pela timeline.  Animação de movimento de câmera - Render -->
 
+### Introdução à modelagem
 
+* Aula 01 - Apresentação do software e desmistificação da interface.
+
+* Aula 02 - Interface (Continuação).Configurações básicas Inserção de objetos. Tipos de Objetos. Sistemas de coordenadas,  menu N (sidebar) e menu T.
+
+* Aula 03 - Menu T e edição de objetos do tipo Mesh. Diferença entre objeto e Mesh. Formas de copiar um objeto. Addons e snaps.  Modelando a partir de um arquivo DXF.
+
+* Aula 04 - Exercícios de modelagem
+
+* Aula 05 - Modificadores (introdução) Modificadores booleanos. Modificador Solidify. Modificador Screw. Addons Para modelagem Arquitetônica (instalação e inserção de vãos e janelas). BelnderGis e Modelagem de Terrenos.
+
+* Aula 06 - Exercícios de modelagem
+
+* Aula 07 - Modelagem Paramétrica e Geometry nodes. 
+
+* Aula 08 - Exercícios de modelagem
 
 
 <hr>
