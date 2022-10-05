@@ -6,7 +6,7 @@
 
 ![img](https://www.blender.org/wp-content/uploads/2020/07/blender_logo_no_socket_black.png?x63839)
 
-## Planejamento das Aulas:
+
 
 <!--
 - Apresentação do software e desmistificação da interface.
@@ -25,7 +25,9 @@
 - Render Image - configurações 
 - Basico de animação pela timeline.  Animação de movimento de câmera - Render -->
 
-### Introdução à modelagem
+## Curso Introdução à Modelagem
+
+### Planejamento das Aulas:
 
 * Aula 01 - Apresentação do software e desmistificação da interface.
 
@@ -42,6 +44,20 @@
 * Aula 07 - Modelagem Paramétrica e Geometry nodes. 
 
 * Aula 08 - Exercícios de modelagem
+
+
+### Cronograma:
+
+
+* 03/10 - 14h50 às 18:30 Aulas 1, 2
+
+* 10/10  - 14h50 às 18:30 Aulas 3, 4
+
+* 17/10  - 14h50 às 18:30 Aulas 5, 6
+
+* 24/10  - 14h50 às 18:30 Aulas 7,8
+
+        * total 16 horas aula
 
 
 <hr>
