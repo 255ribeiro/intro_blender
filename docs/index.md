@@ -67,10 +67,3 @@
 <hr>
 
 ![img](https://www.blender.org/wp-content/uploads/2020/07/blender_logo_no_socket_white.png?x63839)
-
-
-
-
-
-
-
