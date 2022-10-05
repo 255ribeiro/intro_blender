@@ -287,88 +287,9 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Interface
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="blender_interface.html" class="md-nav__link md-nav__link--active">
         Interface
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Índice">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Índice
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#navegacao" class="md-nav__link">
-    Navegação
-  </a>
-  
-    <nav class="md-nav" aria-label="Navegação">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#configuracao-modo-de-zoom" class="md-nav__link">
-    Configuração modo de Zoom
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#editores" class="md-nav__link">
-    Editores
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#paineis-t-e-n" class="md-nav__link">
-    Painéis T e N
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#modos-de-trabalho-do-editor-3d-viewport" class="md-nav__link">
-    Modos de Trabalho do Editor 3D Viewport
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#precisao-snaps-pivots" class="md-nav__link">
-    Precisão (snaps &amp; pivots)
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sistemas-de-coordenadas" class="md-nav__link">
-    Sistemas de coordenadas
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -807,18 +728,20 @@
 <p><img alt="interface" src="../figs/imgBlender/blenderInterface.jpg" /></p>
 <ol>
 <li>Menu do programa (application menu)</li>
-<li>Workspaces</li>
+<li>Workspaces (interface com formato de abas)</li>
 <li>Controles de cena e camadas de visibilidade (Scene and View Layer selection)</li>
-<li>Editores</li>
+<li>Áreas / Editores</li>
 </ol>
-<p>Abas servem para trocar entre diferentes configurações de editores.</p>
+<p>Os Workspaces servem para trocar entre diferentes configurações de Áreas e Editores.</p>
 <hr />
-<h2 id="navegacao">Navegação</h2>
-<h3 id="configuracao-modo-de-zoom">Configuração modo de Zoom</h3>
-<p><img alt="img" src="../figs/imgBlender/CONFIG_NAV.jpg" /></p>
+<h1 id="areas">Áreas</h1>
+<p>Redimensionando Áreas:</p>
+<p><img alt="img" src="../figs/imgBlender/interface/areas_redim.gif" /></p>
+<p><img alt="img" src="../figs/imgBlender/interface/areas.png" /></p>
 <hr />
 <h2 id="editores">Editores</h2>
 <p><a href="https://docs.blender.org/manual/en/2.90/editors/index.html#editors">Documentação</a></p>
+<p>Toda Áreas é ocupada por um editor, que pode ser trocado na caixa de seleção na posição superior esquerda (por padrão) da respectiva área. </p>
 <p><img alt="Editores" src="../figs/imgBlender/blendeditors.jpg" /></p>
 <ol>
 <li>
@@ -835,7 +758,18 @@
 <p>Timeline</p>
 </li>
 </ol>
-<p>O atalho <code>ctrl + space</code> maximiza o editor atual ou retorna para a vista padrão da aba.</p>
+<p>O atalho <code>ctrl</code> + <code>space</code> maximiza o editor atual ou retorna para a vista padrão da aba.</p>
+<hr />
+<h2 id="navegacao">Navegação</h2>
+<h3 id="atalhos">Atalhos</h3>
+<p>Zoom: <code>MMB</code> (Rolar)
+PAN : <code>SHIFT</code> + <code>MMB</code> (Arrastar)
+ORBIT: <code>MMB</code> (Arrastar)</p>
+<h3 id="navigation-gizmo">Navigation Gizmo</h3>
+<p><img alt="img" src="../figs/imgBlender/interface/NAVIG_GIZMO.jpg" /></p>
+<h3 id="configuracao-modo-de-zoom">Configuração modo de Zoom</h3>
+<p>Para o Zoom centralizar na posição do mouse
+<img alt="img" src="../figs/imgBlender/CONFIG_NAV.jpg" /></p>
 <hr />
 <h2 id="paineis-t-e-n">Painéis T e N</h2>
 <p>Alguns editores possuem pequenas setas nos lados de duas áreas. Menus podem ser abertos clicando e arrastando nas setas, ou pelos atalhos <code>T</code> e <code>N</code>.</p>
@@ -864,7 +798,7 @@
 <p>Pontos pivots de transformação do Blender.</p>
 <hr />
 <h2 id="sistemas-de-coordenadas">Sistemas de coordenadas</h2>
-<p><img alt="coordenadas_Blender" src="../figs/imgBlender/coordenadas_blender.jpg" /></p>
+<p><img alt="Coordenadas_Blender" src="../figs/imgBlender/coordenadas_blender.jpg" /></p>
 <ol>
 <li>Global</li>
 <li>Local</li>
