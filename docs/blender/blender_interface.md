@@ -12,6 +12,13 @@
 Abas servem para trocar entre diferentes configurações de editores.
 
 ________________
+## Navegação
+
+### Configuração modo de Zoom
+
+![img](../figs/imgBlender/CONFIG_NAV.jpg)
+
+________________
 ## Editores
 
 [Documentação](https://docs.blender.org/manual/en/2.90/editors/index.html#editors)
@@ -21,6 +28,7 @@ ________________
 
   1. 3d viewport
   2. Outliner
+     a. View Layer
   3. Properties
   4. Timeline
 
@@ -79,13 +87,11 @@ Comandos de precisão do Blender.
 
 Pontos pivots de transformação do Blender.
 
-
-
 _______________
 
 ## Sistemas de coordenadas
 
-![corrdenadas_belnder](../figs/imgBlender/coordenadas_blender.jpg)
+![coordenadas_Blender](../figs/imgBlender/coordenadas_blender.jpg)
 
 1. Global
 2. Local
@@ -96,3 +102,4 @@ _______________
 7. A partir de um objeto (+)
 
 ________________
+
