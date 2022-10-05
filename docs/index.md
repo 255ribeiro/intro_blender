@@ -9,6 +9,7 @@
 
 
 <!--
+
 - Apresentação do software e desmistificação da interface.
 - Interface (Continuação).Configurações básicas Inserção de objetos. Tipos de Objetos. Sistemas de coordenadas,  menu N (side bar) e menu T.
 
@@ -23,7 +24,10 @@
 - Materiais e texturas Exercício
 - baixando blocos e texturas. Ajustando a cena para o render. Iluminação
 - Render Image - configurações 
-- Basico de animação pela timeline.  Animação de movimento de câmera - Render -->
+- Basico de animação pela timeline.  Animação de movimento de câmera - Render 
+ 
+
+-->
 
 ## Curso Introdução à Modelagem
 
