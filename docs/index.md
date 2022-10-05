@@ -61,7 +61,7 @@
 
 * 24/10  - 14h50 às 18:30 Aulas 7,8
 
-        * total 16 horas aula
+    * total 16 horas aula
 
 
 <hr>
