@@ -4,16 +4,15 @@
 
 ![preferences](../figs/imgBlender/preferences.jpg)
 
-Acima vemos uma das maneiras de se abrir o menu de preferências.
+Acima vemos uma das maneiras de se abrir o menu de preferências. O mesmo menu pode ser acessado abrindo o *File Context Menu* (`F4`) e apertando a tecla `P` em seguida.
 
 ![addons](../figs/imgBlender/addons.jpg)
 
-Na opção Add-ons podemos ver uma série de adições que já vem embarcadas no Blender e podemos instalar outras, baixadas da internet. Alguns são gratuitos e outros pagos.
+No menu de preferências, na opção Add-ons podemos ver uma série de adições que já vem embarcadas no Blender e podemos instalar outras, baixadas da internet. Alguns são gratuitos e outros pagos.
+
+Os addons embarcados podem ser instalados marcando o **Checkbox** na esquerda do nome do **addon**. 
 
 ## Instalação de Addons Baixados:
-
-
-
 
 
 ## Addons sugeridos:

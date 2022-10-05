@@ -59,6 +59,9 @@ ORBIT: `MMB` (Arrastar)
 
 ### Configuração modo de Zoom
 
+
+Abra a janela de preferências (Edit -> Preferences ou `F4` seguido da tecla `P`)
+
 Para o Zoom centralizar na posição do mouse
 ![img](../figs/imgBlender/CONFIG_NAV.jpg)
 
