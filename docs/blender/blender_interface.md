@@ -67,7 +67,7 @@ Para o Zoom centralizar na posição do mouse
 
 
 ________________
-## Temas e presets
+## Temas e Presets
 
 ![img](../figs/imgBlender/interface/themes_presets.gif)
 
