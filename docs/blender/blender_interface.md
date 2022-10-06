@@ -71,8 +71,6 @@ ________________
 
 ![img](../figs/imgBlender/interface/themes_presets.gif)
 
-
-
 ________________
 
 ## Painéis T e N
