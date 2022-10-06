@@ -65,6 +65,14 @@ Abra a janela de preferências (Edit -> Preferences ou `F4` seguido da tecla `P`
 Para o Zoom centralizar na posição do mouse
 ![img](../figs/imgBlender/CONFIG_NAV.jpg)
 
+
+________________
+## Temas e presets
+
+![img](../figs/imgBlender/interface/themes_presets.gif)
+
+
+
 ________________
 
 ## Painéis T e N
