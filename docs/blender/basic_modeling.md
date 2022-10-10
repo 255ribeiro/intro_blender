@@ -45,4 +45,6 @@
    4. Bevel
    5. Srcew
 
+
+
 ## Modelagem por nós (Geometry Nodes)

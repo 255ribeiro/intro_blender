@@ -2,6 +2,10 @@
 
 Técnicas de modelagem a partir de plantas
 
+## ARQUIVO DXF - EXEMPLO PLANTA BAIXA
+
+[PLAN_EXEMPLO.DXF](../exemplos/PLAN_EXEMPLO.dxf)
+
 
 ## Vídeo do canal [GL.3D](https://www.youtube.com/channel/UCDMs6qQbvvKnXOLKW937Kaw/featured)
 
