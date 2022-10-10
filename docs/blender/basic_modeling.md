@@ -31,7 +31,10 @@
          1. ``shift`` + ``RMB`` : Movendo o cursor
          2. ``shift`` + ``S`` : 'Pie menu' com operações com o cursor
       3. [Extrude(e)](https://docs.blender.org/manual/en/latest/modeling/meshes/editing/mesh/extrude.html)
-      4. [knife(k)](https://docs.blender.org/manual/en/latest/modeling/meshes/tools/knife.html)
+      4. [Knife(k)](https://docs.blender.org/manual/en/latest/modeling/meshes/tools/knife.html)
+         a. ``A`` (ANGLE)
+         b. ``SHIFT`` (MIDPOINT)
+         c. ``C`` (CUT TROUGHT)
       5. [Loop Cut(ctrl+ R)](https://docs.blender.org/manual/en/latest/modeling/meshes/tools/loop.html)
 4. Copiando objetos
    1. ``shift`` + ``D`` : [Duplicate](https://docs.blender.org/manual/en/latest/scene_layout/object/editing/duplicate.html)
