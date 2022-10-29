@@ -38,7 +38,7 @@ Os addons embarcados podem ser instalados marcando o **Checkbox** na esquerda do
    6. [Bagapie](https://www.f12studio.fr/bagapie)
    7. [PRJ](https://gitlab.com/marzof/prj)
    8. [BlenderBIM](https://blenderbim.org/)
-   9. [Point Cloud vizualizer](https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280) 
+   9.  [Point Cloud vizualizer](https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280) 
    10. [Jmesh](https://github.com/jayanam/jmesh-tools)
    11. [Mesh Align Plus](https://github.com/egtwobits/mesh_mesh_align_plus)
    12. [Sverchok](https://github.com/nortikin/sverchok/)
