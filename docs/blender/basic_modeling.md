@@ -44,9 +44,12 @@
 ## Modelagem procedural (Modifyers):
    1. Boolean
    2. Solidify
+
    3. Array
    4. Bevel
-   5. Srcew
+       Configurando Bevel com Vertex Groups
+      ![bevel example](..\figs\imgBlender\modifiers\bevel_vertex_group.png)
+   1. Srcew
 
 
 
