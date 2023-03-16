@@ -31,7 +31,7 @@
 
 ## Curso Introdução à Modelagem (hard surface) 2022.2
 
-### Planejamento das Aulas:s
+### Planejamento das Aulas:
 
 * Aula 01 - Apresentação do software e desmistificação da interface.
 
