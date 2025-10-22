@@ -4,36 +4,45 @@
 
 Acesse o repositório do Github do [BlenderGis](https://github.com/domlysz/BlenderGIS)
 
-![github_BenderGis](../figs/imgBlender/BlenderGisGitHub.jpg)
+<!-- ![github_BenderGis](../figs/imgBlender/blendergis_github/BlenderGisGitHub.jpg) -->
 
+Procure pelos lançamentos (releases) e clique no link conforme indicado na imagem abaixo:
+
+![alt text](../figs/imgBlender/blendergis_github/BlenderGisGitHub_a_01.png)
+
+Baixe o último lançamento no formato compactado .zip
+
+![alt text](../figs/imgBlender/blendergis_github/BlenderGisGitHub_a_02.png)
 
 ## Instalando
 
-Baixe o arquivo .zip e, pela tela de Edit->Preferences->Add-ons, clique na opção **Install**
+Baixe o arquivo .zip e, pela tela de ```Edit->Preferences->Get Extensions```, clique na seta de dropdown na direita da janela e escolha a opção  **Install From Disk**
 
-![bgis_install](../figs/imgBlender/INSTALL_ADDONS.JPG)
+![alt text](../figs/imgBlender/install_from_disk/install_from_disk.png)
 
-navegue até o local onde baixou o arquivo .zip, selecione o arquivo e aperte o botão **install add-on**
+O gif abaixo mostra o caminho para chegar na opção install from disk
 
-![bgis_install_2](../figs/imgBlender/INSTALL_ADDONS_2.JPG)
+![alt text](../figs/imgBlender/install_from_disk/blender_install_from_disk.gif)
 
-De volta à tela de Add-ons, clique na seta para visualizar as propriedades do Add-on instalado. Em todos os plug-ins vamos encontrar ao menos um botão que leva para o site da documentação (Help e informações de funcionamento do Plug-in) e um botão para remover o Add-on instalado. Em alguns casos, mais configurações vão aparecer.
+O navegador de arquivos do Blender será aberto que que se selecione o arquivo ```.zip``` do add-on
+<!-- ![bgis_install](../figs/imgBlender/INSTALL_ADDONS.JPG) -->
 
-Ative a **checkbox** ao lado da seta para instalar o Add-on. 
+navegue até o local onde baixou o arquivo .zip, selecione o arquivo e aperte o botão **install from Disk**
 
-![bgis_install_2](../figs/imgBlender/INSTALL_ADDONS_3.JPG)
+![alt text](../figs/imgBlender/install_from_disk/install_from_disk_file.png)
 
+<!-- ![bgis_install_2](../figs/imgBlender/INSTALL_ADDONS_2.JPG) -->
 
 Dependendo da complexidade do Add-on a instalação pode ser muita rápida ou demorar um pouco. Aguarde. O Blender esta descompactando o arquivo .zip e copiando o conteúdo para a pasta de Add-ons da sua instalação. No caso do Windows 10, esta pasta fica no caminho:
 
 ```
-C:\Users\<seu nome de usuário do windows>\AppData\Roaming\Blender Foundation\Blender\<número da versão do Blender instalada e.g. \2.90\>\scripts\addons
+C:\Users\<seu nome de usuário do windows>\AppData\Roaming\Blender Foundation\Blender\<número da versão do Blender instalada e.g. \4.5>\scripts\addons
 ```
 
 Que também pode ser acessado digitando a lina abaixo na barra de endereço do **Explorador de Arquivos** do Windows (apenas mudando o número da versão do Blender):
 
 ```
-%AppData%\Blender Foundation\Blender\2.90\scripts\addons
+%AppData%\Blender Foundation\Blender\<número da versão do Blender instalada e.g. \4.5>\scripts\addons
 ```
 
 No fim desta execução, a **checkbox** aparecerá marcada e a instalação concluída. Alguns Add-ons, contudo, exigem configurações adicionais que aparecerão nesta mesma tela, assim que a **checkbox** aparecer como marcada.
@@ -53,7 +62,7 @@ Navegue até a pasta criada e clique no botã para aceitar.
 ![cash_2](../figs/imgBlender/BlenderGisCashFolder_2.jpg)
 
 
-### Sistema de Projeção Sirgas 2000
+### Sistema de Projeção Sirgas 2000 UTM 24s
 
 O sistema de corrdenadas de referência Sirgas 2000 é o mais utilizado no Brasil. Informações sobre este sistema e seu código EPSG podem ser conferidas no [link](https://epsg.io/4674).
 
@@ -66,8 +75,8 @@ Em seguida preencha a caixa de diálogo conforme indicado.
 ![cash_2](../figs/imgBlender/BlenderGisCRS_2.jpg)
 
 ```
-EPSG:4674
-SIRGAS 2000
+EPSG:31984
+SIRGAS 2000 UMT 24s
 ```
 
 Para configurar qualquer outro sistema de coordenadas, pasta pesquisar o nome e o EPSG na internet e repetir as operações descritas acima.
