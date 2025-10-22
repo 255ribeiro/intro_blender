@@ -23,6 +23,7 @@
    ![gis_dxf_08](../figs/imgBlender/bgis_dxf_08.jpg)
 
 Com a malha gerada, é possível exportar as coordenadas dos vértices da malha para um arquivo ```.txt```
+
  ```Python
  import bpy
 from pathlib import Path
