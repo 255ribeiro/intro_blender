@@ -56,7 +56,7 @@ Crie uma pasta para o cash do BlenderGis em algum lugar do seu drive e clique no
 
 ![cash](../figs/imgBlender/BlenderGisCashFolder.jpg)
 
-Navegue até a pasta criada e clique no botã para aceitar.
+Navegue até a pasta criada e clique no botão para aceitar.
 
 ![cash_2](../figs/imgBlender/BlenderGisCashFolder_2.jpg)
 
