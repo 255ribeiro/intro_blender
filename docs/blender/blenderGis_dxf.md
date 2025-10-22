@@ -18,8 +18,31 @@
  ![gis_dxf_06](../figs/imgBlender/bgis_dxf_06.jpg)
 1. No Menu do Plug-in BlenderGis, com a Mesh das curvas de nível selecionada, escolha a opção **Gis -> Mesh -> Delanay**.
  ![gis_dxf_07](../figs/imgBlender/bgis_dxf_07.jpg)
+
 1. Uma malha é gerada a partir das curvas
    ![gis_dxf_08](../figs/imgBlender/bgis_dxf_08.jpg)
+
+Com a malha gerada, é possível exportar as coordenadas dos vértices da malha para um arquivo ```.txt```
+ ```Python
+ import bpy
+from pathlib import Path
+
+# Get the directory of the current .blend file
+blend_dir = Path(bpy.data.filepath).parent
+save_to_file = blend_dir / "vertices.txt"  # Output file in the same folder
+separator = " "  # Custom separator
+
+# Extract vertex coordinates
+vertices = [f"{v.co.x}{separator}{v.co.y}{v.co.z}" for v in bpy.context.object.data.vertices]
+
+# Save to file
+with open(save_to_file, 'w') as file:
+    file.write('\n'.join(vertices))
+
+print(f"Vertices exported to: {save_to_file}")   
+ 
+ ```
+
 2. Mudando para o **Edit Mode** pode-se ver a malha triangular gerada pelo comando.
  ![gis_dxf_08](../figs/imgBlender/bgis_dxf_09.jpg)
 
