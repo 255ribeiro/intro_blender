@@ -20,13 +20,15 @@ Baixe o arquivo .zip e, pela tela de ```Edit -> Preferences -> Add-ons```, cliqu
 
 ![alt text](../figs/imgBlender/install_from_disk/install_from_disk.png)
 
-O gif abaixo mostra o caminho para chegar na opção install from disk
 
-![alt text](../figs/imgBlender/install_from_disk/blender_install_from_disk.gif)
 
-O navegador de arquivos do Blender será aberto que que se selecione o arquivo ```.zip``` do add-on. Vá até o local onde baixou o arquivo .zip, selecione o arquivo e aperte o botão **install from Disk**
+O navegador de arquivos do Blender será aberto que que se selecione o arquivo ```.zip``` do add-on. Vá até o local onde baixou o arquivo .zip, selecione o arquivo e aperte o botão **Install from Disk**
 
 ![alt text](../figs/imgBlender/install_from_disk/install_from_disk_file.png)
+
+O gif abaixo mostra o caminho para instalar um Add-on baixado.
+
+![alt text](../figs/imgBlender/install_from_disk/blender_install_from_disk.gif)
 
 <!-- ![bgis_install_2](../figs/imgBlender/INSTALL_ADDONS_2.JPG) -->
 
