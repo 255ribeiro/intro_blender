@@ -6,6 +6,8 @@ platforms = ["win-64"]
 version = "0.1.0"
 
 [tasks]
+deploy = "mkdocs gh-deploy"
+serve = "mkdocs serve"
 
 [dependencies]
 python = "3.13.*"
