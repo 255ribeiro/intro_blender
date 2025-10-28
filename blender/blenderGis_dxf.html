@@ -1045,25 +1045,21 @@
 </ol>
 <p><img alt="gis_dxf_06" src="../figs/imgBlender/bgis_dxf_06.jpg" /></p>
 <p>Com as curvas convertidas em mesh, é possível exportar as coordenadas dos vértices para um arquivo <code>.txt</code> utilizando o código abaixo:</p>
-<pre><code class="language-Python">import bpy
-from pathlib import Path
-
-# Get the directory of the current .blend file
-blend_dir = Path(bpy.data.filepath).parent
-save_to_file = blend_dir / &quot;vertices.txt&quot;  # Output file in the same folder
-separator = &quot;,&quot;  # Custom separator
-
-# Extract vertex coordinates
-vertices = [f&quot;{v.co.x}{separator}{v.co.y}{separator}{v.co.z}&quot; for v in bpy.context.object.data.vertices]
-
-# Save to file
-with open(save_to_file, 'w') as file:
-
-    file.write('\n'.join(vertices))
-
-print(f&quot;Vertices exported to: {save_to_file}&quot;)   
-
+<p>```py title="Export vertex data"
+import bpy
+from pathlib import Path</p>
+<h1 id="get-the-directory-of-the-current-blend-file">Get the directory of the current .blend file</h1>
+<p>blend_dir = Path(bpy.data.filepath).parent
+save_to_file = blend_dir / "vertices.txt"  # Output file in the same folder
+separator = ","  # Custom separator</p>
+<h1 id="extract-vertex-coordinates">Extract vertex coordinates</h1>
+<p>vertices = [f"{v.co.x}{separator}{v.co.y}{separator}{v.co.z}" for v in bpy.context.object.data.vertices]</p>
+<h1 id="save-to-file">Save to file</h1>
+<p>with open(save_to_file, 'w') as file:</p>
+<pre><code>file.write('\n'.join(vertices))
 </code></pre>
+<p>print(f"Vertices exported to: {save_to_file}")   </p>
+<p>```</p>
 <ol>
 <li>
 <p>No Menu do Plug-in BlenderGis, com a Mesh das curvas de nível selecionada, escolha a opção <strong>Gis -&gt; Mesh -&gt; Delanay</strong>.
