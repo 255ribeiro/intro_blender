@@ -332,3 +332,7 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,windows,linux,macos,pycharm
 
 
+
+# pixi environments
+.pixi
+*.egg-info
