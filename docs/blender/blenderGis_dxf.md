@@ -17,7 +17,7 @@
 1. converta as curvas em Mesh.
    ![gis_dxf_06](../figs/imgBlender/bgis_dxf_06.jpg)
 
-Com as curvas convertidas em mesh, é possível exportar as coordenadas dos vértices para um arquivo ```.txt``` utilizando o código abaixo:
+Com as curvas convertidas em mesh, é possível exportar as coordenadas dos vértices para um arquivo ```.txt``` utilizando o código abaixo. Esse arquivo pode ser usado para geração de terrenos em programas como O Revit e Archicad:
 
 ```py
 import bpy
