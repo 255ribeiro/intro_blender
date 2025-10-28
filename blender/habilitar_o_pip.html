@@ -1066,10 +1066,10 @@
 <p>Encontrar a pasta python no Blender:
 1. Vá para o workspace script 
 1. No editor <em>python console</em> digite (ou copie e cole):</p>
-<pre><code class="language-Python">import sys
-sys.exec_prefix
-</code></pre>
-<p>O console ira imprimir o caminho para a pasta onde ficam os arquivos do ambiente Python da sua instalação do Blender.</p>
+<p><div class="language-Python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">sys</span><span class="o">.</span><span class="n">exec_prefix</span>
+</span></code></pre></div>
+O console ira imprimir o caminho para a pasta onde ficam os arquivos do ambiente Python da sua instalação do Blender.</p>
 <p><img alt="py_console" src="../figs/imgBlender/blender_py_console.jpg" /></p>
 <p><img alt="py_path" src="../figs/imgBlender/blender_py_path.jpg" />
 1. Copie o endereço (ctrl + c)</p>
@@ -1081,15 +1081,15 @@ sys.exec_prefix
 <ol>
 <li>No PowerShell, digite cd e cole o endereço copiado (ctrl + v).</li>
 </ol>
-<pre><code class="language-shell">cd &quot;C:/Program Files/Blender Foundation/Blender/2.80/python/&quot;
-</code></pre>
+<div class="language-shell highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nb">cd</span><span class="w"> </span><span class="s2">&quot;C:/Program Files/Blender Foundation/Blender/2.80/python/&quot;</span>
+</span></code></pre></div>
 <p><img alt="pw_cd_py_path" src="../figs/imgBlender/pw_cd_py_path.png" /></p>
 <ol>
 <li>Para terminar o processo e atualizar a versão do pip e de suas principais dependências, copie e cole as linhas de comando abaixo. </li>
 </ol>
-<pre><code class="language-shell">.\bin\python -m ensurepip
-.\bin\python -m pip install --upgrade pip setuptools wheel
-</code></pre>
+<div class="language-shell highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>.<span class="se">\b</span>in<span class="se">\p</span>ython<span class="w"> </span>-m<span class="w"> </span>ensurepip
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>.<span class="se">\b</span>in<span class="se">\p</span>ython<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>pip<span class="w"> </span>setuptools<span class="w"> </span>wheel
+</span></code></pre></div>
 
 
 
@@ -1189,7 +1189,7 @@ sys.exec_prefix
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["toc.integrate"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "toc.integrate"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>

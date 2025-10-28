@@ -1045,21 +1045,24 @@
 </ol>
 <p><img alt="gis_dxf_06" src="../figs/imgBlender/bgis_dxf_06.jpg" /></p>
 <p>Com as curvas convertidas em mesh, é possível exportar as coordenadas dos vértices para um arquivo <code>.txt</code> utilizando o código abaixo:</p>
-<p>```py title="Export vertex data"
-import bpy
-from pathlib import Path</p>
-<h1 id="get-the-directory-of-the-current-blend-file">Get the directory of the current .blend file</h1>
-<p>blend_dir = Path(bpy.data.filepath).parent
-save_to_file = blend_dir / "vertices.txt"  # Output file in the same folder
-separator = ","  # Custom separator</p>
-<h1 id="extract-vertex-coordinates">Extract vertex coordinates</h1>
-<p>vertices = [f"{v.co.x}{separator}{v.co.y}{separator}{v.co.z}" for v in bpy.context.object.data.vertices]</p>
-<h1 id="save-to-file">Save to file</h1>
-<p>with open(save_to_file, 'w') as file:</p>
-<pre><code>file.write('\n'.join(vertices))
-</code></pre>
-<p>print(f"Vertices exported to: {save_to_file}")   </p>
-<p>```</p>
+<div class="language-py highlight"><span class="filename">Export vertex data</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">bpy</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="c1"># Get the directory of the current .blend file</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="n">blend_dir</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">bpy</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">filepath</span><span class="p">)</span><span class="o">.</span><span class="n">parent</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="n">save_to_file</span> <span class="o">=</span> <span class="n">blend_dir</span> <span class="o">/</span> <span class="s2">&quot;vertices.txt&quot;</span>  <span class="c1"># Output file in the same folder</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="n">separator</span> <span class="o">=</span> <span class="s2">&quot;,&quot;</span>  <span class="c1"># Custom separator</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="c1"># Extract vertex coordinates</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="n">vertices</span> <span class="o">=</span> <span class="p">[</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">v</span><span class="o">.</span><span class="n">co</span><span class="o">.</span><span class="n">x</span><span class="si">}{</span><span class="n">separator</span><span class="si">}{</span><span class="n">v</span><span class="o">.</span><span class="n">co</span><span class="o">.</span><span class="n">y</span><span class="si">}{</span><span class="n">separator</span><span class="si">}{</span><span class="n">v</span><span class="o">.</span><span class="n">co</span><span class="o">.</span><span class="n">z</span><span class="si">}</span><span class="s2">&quot;</span> <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">bpy</span><span class="o">.</span><span class="n">context</span><span class="o">.</span><span class="n">object</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">vertices</span><span class="p">]</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="c1"># Save to file</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">save_to_file</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>    <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">vertices</span><span class="p">))</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Vertices exported to: </span><span class="si">{</span><span class="n">save_to_file</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>   
+</span></code></pre></div>
 <ol>
 <li>
 <p>No Menu do Plug-in BlenderGis, com a Mesh das curvas de nível selecionada, escolha a opção <strong>Gis -&gt; Mesh -&gt; Delanay</strong>.
@@ -1201,7 +1204,7 @@ separator = ","  # Custom separator</p>
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["toc.integrate"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "toc.integrate"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>

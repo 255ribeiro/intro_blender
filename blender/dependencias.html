@@ -1092,12 +1092,11 @@
   <h1>depedências</h1>
 
 <p># Instalando dependências do Sverchok</p>
-<pre><code class="language-shell"> ______ _    _ _______  ______ _______ _     _  _____  _     _
-/______  \  /  |______ |_____/ |       |_____| |     | |____/
-______/   \/   |______ |    \_ |_____  |     | |_____| |    \_
-initialized.
-
-</code></pre>
+<div class="language-shell highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="w"> </span>______<span class="w"> </span>_<span class="w">    </span>_<span class="w"> </span>_______<span class="w">  </span>______<span class="w"> </span>_______<span class="w"> </span>_<span class="w">     </span>_<span class="w">  </span>_____<span class="w">  </span>_<span class="w">     </span>_
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>/______<span class="w">  </span><span class="se">\ </span><span class="w"> </span>/<span class="w">  </span><span class="p">|</span>______<span class="w"> </span><span class="p">|</span>_____/<span class="w"> </span><span class="p">|</span><span class="w">       </span><span class="p">|</span>_____<span class="p">|</span><span class="w"> </span><span class="p">|</span><span class="w">     </span><span class="p">|</span><span class="w"> </span><span class="p">|</span>____/
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>______/<span class="w">   </span><span class="se">\/</span><span class="w">   </span><span class="p">|</span>______<span class="w"> </span><span class="p">|</span><span class="w">    </span><span class="se">\_</span><span class="w"> </span><span class="p">|</span>_____<span class="w">  </span><span class="p">|</span><span class="w">     </span><span class="p">|</span><span class="w"> </span><span class="p">|</span>_____<span class="p">|</span><span class="w"> </span><span class="p">|</span><span class="w">    </span><span class="se">\_</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>initialized.
+</span></code></pre></div>
 <h2 id="habilitar-o-pip">Habilitar o pip</h2>
 <p>Caso o pip não esteja habilitado para sua versão do Blender siga as <a href="habilitar_o_pip.html">instruções de habilitação</a></p>
 <ol>
@@ -1107,9 +1106,9 @@ initialized.
 <ol>
 <li>digite as linhas de comando abaixo:</li>
 </ol>
-<pre><code class="language-Python">import site
-site.getsitepackages()
-</code></pre>
+<div class="language-Python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">site</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">site</span><span class="o">.</span><span class="n">getsitepackages</span><span class="p">()</span>
+</span></code></pre></div>
 <p><img alt="py_site_pkg_path" src="../figs/imgBlender/py_site_pkg_path.jpg" /></p>
 <ol>
 <li>
@@ -1119,8 +1118,8 @@ site.getsitepackages()
 <p>Substitua o endereço abaixo endereço copiado no passo anterior (crtl + v). É recomendado fechar o Blender para quando for instalar programas usando o pip.</p>
 </li>
 </ol>
-<pre><code class="language-shell"> .\Scripts\pip install --upgrade scipy geomdl SciKit-Image PyMCubes Circlify ladybug-core -t 'C:\\Program Files\\Blender Foundation\\Blender 2.90\\2.90\\python\\lib\\site-packages'
-</code></pre>
+<div class="language-shell highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="w"> </span>.<span class="se">\S</span>cripts<span class="se">\p</span>ip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>scipy<span class="w"> </span>geomdl<span class="w"> </span>SciKit-Image<span class="w"> </span>PyMCubes<span class="w"> </span>Circlify<span class="w"> </span>ladybug-core<span class="w"> </span>-t<span class="w"> </span><span class="s1">&#39;C:\\Program Files\\Blender Foundation\\Blender 2.90\\2.90\\python\\lib\\site-packages&#39;</span>
+</span></code></pre></div>
 <h6 id="na-versao-atual-o-pip-apresenta-um-erro-na-instalacao-das-dependencias-do-ladybug-core-isso-pode-ser-corrigido-instalando-o-add-on-do-ladybug-no-abaixo">Na versão atual, o pip apresenta um erro na instalação das dependências do ladybug-core. Isso pode ser corrigido instalando o add-on do LadyBug no abaixo:</h6>
 <p><a href="https://blenderbim.org/download.html">https://blenderbim.org/download.html</a></p>
 <h2 id="dependencia-do-freecad">Dependência do FreeCAD</h2>
@@ -1241,7 +1240,7 @@ site.getsitepackages()
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["toc.integrate"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "toc.integrate"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
