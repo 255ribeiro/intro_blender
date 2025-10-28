@@ -20,7 +20,7 @@
 
 Com as curvas convertidas em mesh, é possível exportar as coordenadas dos vértices para um arquivo ```.txt``` utilizando o código abaixo:
 
-```Python
+```py
 import bpy
 from pathlib import Path
 

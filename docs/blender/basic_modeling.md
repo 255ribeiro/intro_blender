@@ -48,7 +48,7 @@
    3. Array
    4. Bevel
        Configurando Bevel com Vertex Groups
-      ![bevel example](..\figs\imgBlender\modifiers\bevel_vertex_group.png)
+      ![bevel example](../figs/imgBlender/modifiers/bevel_vertex_group.png)
    1. Srcew
 
 
