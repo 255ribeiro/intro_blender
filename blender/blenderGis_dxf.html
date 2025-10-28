@@ -1051,7 +1051,7 @@ from pathlib import Path
 # Get the directory of the current .blend file
 blend_dir = Path(bpy.data.filepath).parent
 save_to_file = blend_dir / &quot;vertices.txt&quot;  # Output file in the same folder
-separator = &quot; &quot;  # Custom separator
+separator = &quot;,&quot;  # Custom separator
 
 # Extract vertex coordinates
 vertices = [f&quot;{v.co.x}{separator}{v.co.y}{separator}{v.co.z}&quot; for v in bpy.context.object.data.vertices]
