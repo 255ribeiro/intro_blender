@@ -4,10 +4,6 @@
 
 ![img](./figs/splash_blender_33_lts.jpg)
 
-![img](https://www.blender.org/wp-content/uploads/2020/07/blender_logo_no_socket_black.png?x63839)
-
-
-
 <!--
 
 - Apresentação do software e desmistificação da interface.
@@ -63,7 +59,4 @@
 
     * total 16 horas aula
 
-
 <hr>
-
-![img](https://www.blender.org/wp-content/uploads/2020/07/blender_logo_no_socket_white.png?x63839)
