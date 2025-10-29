@@ -5,6 +5,7 @@ copyright: Copyright &copy; 2022 Fernando Ferraz Ribeiro
 
 theme:
   features:
+    # copy button on code blocks
     - content.code.copy
     #- navigation.sections
     - toc.integrate
@@ -52,7 +53,6 @@ nav:
       - Configurações de Material transparente (Vidro):
         - Evee: blender/render/evee/evee_glass_config.md
         - Cycles: blender/render/cycles/cycles_glass_config.md
-
   - Extra:
     - Sverchok:
       - Instalando depedências:
@@ -60,6 +60,8 @@ nav:
         - depedências: blender/dependencias.md
   - Aulas gravadas: blender/aulas_gravadas/aulas_gravadas.md
 
+
+# configuração de extensões
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -69,9 +71,7 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
 
- 
 
-  
 extra:
   social:
       - icon: fontawesome/brands/github
