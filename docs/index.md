@@ -10,17 +10,17 @@
 
 * Aula 01 - Apresentação do software e desmistificação da interface.
 
-* Aula 02 - Interface (Continuação).
+* Aula 02 - Interface (Continuação)
   * Configurações básicas Inserção de objetos
   * Tipos de Objetos
   * Sistemas de coordenadas
   * menu N (sidebar) e menu T (tools)
 
-* Aula 03 - Menu T e edição de objetos do tipo Mesh. 
+* Aula 03 - Menu T e edição de objetos do tipo Mesh
   * Diferença entre objeto e Mesh
   * Formas de copiar um objeto
   * Addons e snaps
-  * Modelando a partir de um arquivo DXF.
+  * Modelando a partir de um arquivo DXF
 
 * Aula 04 - Exercícios de modelagem
 
