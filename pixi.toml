@@ -6,7 +6,7 @@ platforms = ["win-64"]
 version = "0.1.0"
 
 [tasks]
-deploy = "mkdocs gh-deploy"
+updoc = "mkdocs gh-deploy"
 serve = "mkdocs serve"
 
 [dependencies]
