@@ -29,7 +29,7 @@
   * Modificador Solidify
   * Modificador Screw
   * Addons Para modelagem Arquitetônica (instalação e inserção de vãos e janelas)
-  * BelnderGis e Modelagem de Terrenos.
+  * BelnderGis (add-on) e Modelagem de Terrenos.
 
 * Aula 06 - Exercícios de modelagem
 
