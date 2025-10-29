@@ -4,7 +4,7 @@
 
 ![img](./figs/splash_blender_33_lts.jpg)
 
-## Curso Introdução à Modelagem (hard surface) 2022.2
+## Curso Introdução à Modelagem (hard surface) no Blender - 2022.2
 
 ### Planejamento das Aulas
 
@@ -26,13 +26,13 @@
 
 ### Cronograma
 
-* 03/10 - 14h50 às 18:30 Aulas 1, 2
+* 03/10 - 14h50 às 18h30 Aulas 1, 2
 
-* 10/10  - 14h50 às 18:30 Aulas 3, 4
+* 10/10  - 14h50 às 18h30 Aulas 3, 4
 
-* 17/10  - 14h50 às 18:30 Aulas 5, 6
+* 17/10  - 14h50 às 18h30 Aulas 5, 6
 
-* 24/10  - 14h50 às 18:30 Aulas 7,8
+* 24/10  - 14h50 às 18h30 Aulas 7,8
 
   * total 16 horas aula
 
